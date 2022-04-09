@@ -1,0 +1,82 @@
+.nastedRoute-container{
+  font-family: "Poppins", sans-serif;
+  color: gray;
+  padding: 10px 20px;
+}
+.filterTitle{
+  margin-top: 50px;
+}
+.Expand{
+  /* text-align: end; */
+  font-size: 14px;
+  color: #1976d2;
+  font-weight: 600;
+  margin: 20px 0px;
+  cursor: pointer;
+}
+.filter-option{
+  margin: 10px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.filter-option:hover{
+  color: #1976d2;
+}
+.filter-option p{
+  margin-left: 10px;
+}
+.filter-option small{
+  margin-left: auto;
+}
+
+.applyFilter {
+  display: flex;
+  margin-top: 30px;
+}
+.applyFilter button{
+  padding: 7px 15px;
+  border: none;
+  background-color: #1976d2;
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  border-radius: 30px;
+}
+.applyFilter button:hover{
+  background-color: #2286eb;
+}
+.applyFilter span{
+  margin-left: auto;
+  margin-top: 8px;
+  color: #1976d2;
+  font-weight: 500;
+  cursor: pointer;
+}
+.heading{
+  background: #ffffff;
+  padding: 20px;
+}
+
+.DAOsocialGraphSearch-InputContainer{
+  display: flex;
+}
+
+.DAOsocialGraphSearchInput{
+  width: 850px;
+  margin: auto;
+  position: relative;
+  padding: 12px 20px;
+  padding-left: 120px;
+  border-radius: 30px;
+}
+.DAOsocialGraphSearch-InputContainer button{
+  position: absolute;
+  background-color: rgb(0, 159, 227);
+  border: 1px solid rgb(0, 159, 227);
+  padding: 8px 40px;
+  color: rgb(255, 255, 255);
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+.DAOsocialGraphSearch-InputContainer button:hover{
+  background-color: rgb(0, 148, 212);
+}

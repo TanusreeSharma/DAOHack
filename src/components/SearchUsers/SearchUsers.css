@@ -1,0 +1,23 @@
+menu ul{
+ display: flex;
+ text-align: left;
+ margin-top: 20px;
+}
+menu ul li{
+ list-style: none;
+ margin: 0px 25px;
+ color: gray;
+ cursor: pointer;
+}
+menu ul li:first-child{
+ margin-left: 0px;
+}
+menu ul li:hover{
+ color: #1976d2;
+ border-bottom: 2px solid #1976d2;
+}
+
+.userContent{
+  margin-left: 70px;
+  width: 70%;
+}

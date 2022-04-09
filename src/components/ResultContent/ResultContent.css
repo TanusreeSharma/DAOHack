@@ -1,0 +1,8 @@
+.result-content h5{
+  font-weight: 500;
+  color: gray;
+}
+.result-content a{
+  text-decoration: none;
+  color: rgb(0, 159, 227);
+}
