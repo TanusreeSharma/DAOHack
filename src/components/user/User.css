@@ -1,0 +1,28 @@
+.user-div{
+  width: 65vw;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  padding: 20px;
+  /* margin: 20px 0px; */
+  border-radius: 10px;
+  font-family: 'Poppins', sans-serif;
+  color: gray;
+  font-size: 14px;
+  cursor: pointer;
+}
+.user-div span{
+  color: rgb(24 15 119);
+  font-weight: 600;
+}
+
+.socialGraph-btn{
+  border: none;
+  background-color: rgb(24 15 119);
+  color: rgb(255, 255, 255);
+  font-size: 8px;
+  border-radius: 30px;
+  margin-left: auto;
+  padding: 0px 20px;
+  height: 30px;
+
+}

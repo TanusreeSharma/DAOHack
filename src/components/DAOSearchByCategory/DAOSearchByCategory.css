@@ -1,0 +1,72 @@
+.search-category-container{
+  width: 65vw;
+  height: 40vh;
+  margin: auto;
+  padding: 60px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  margin-top: 5vh;
+}
+.search-category-container h6{
+  font-size: 24px;
+  margin: 10px 0px;
+}
+.search-category-container h6 span{
+  color: rgb(24 15 119);
+}
+.search-category-container p{
+  margin-bottom: 30px;
+}
+.search-category-container p span{
+  color: rgb(24 15 119);
+  font-weight: 500;
+}
+.search-category-container p a{
+  text-decoration: none;
+  color: rgb(124, 16, 50);
+  font-weight: 600;
+}
+#category{
+  /* appearance: none; */
+  border: 1px solid gainsboro;
+  padding: 10px 20px;
+  width: 300px;
+  border-radius: 30px;
+  outline: none;
+  font-size: 15px;
+  color: gray;
+}
+#category option:hover{
+  background-color: ghostwhite;
+}
+.category-searchInput{
+  width: 550px;
+  position: relative;
+  padding: 12px 20px;
+  border-radius: 30px;
+  outline: none;
+}
+.category-searchInput-container{
+  margin-left: 10px;
+}
+.category-searchInput-container button{
+  position: absolute;
+  margin-left: 415px;
+  background-color: rgb(24 15 119);
+  border: 1px solid rgb(24 15 119);
+  padding: 12px 40px;
+  color: rgb(255, 255, 255);
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.category-searchInput-container button:hover{
+  background-color: rgb(38, 28, 147);
+}
+
+.backBtn a{
+  text-decoration: none;
+  color: gray;
+}
+.backBtn:hover{
+  color: gray;
+}

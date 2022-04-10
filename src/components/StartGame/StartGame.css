@@ -1,0 +1,30 @@
+.playGame-container{
+  background:	
+	url(../../img/bannerMobile.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  text-align: center;
+  font-family: "Poppins";
+}
+.playGame-container h3{
+ padding-top: 50px;
+ color: white;
+ 
+}
+.playGame-container h6{
+ margin-top: 180px;
+ font-size: 25px;
+ color: white;
+ font-weight: 500;
+ 
+}
+.G-options{
+  cursor: pointer;
+}
+
+.correctResult{
+  color: rgb(234, 15, 84);
+  font-size: 25px;
+  font-weight: 500;
+}

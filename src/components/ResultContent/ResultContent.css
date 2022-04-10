@@ -1,0 +1,15 @@
+.result-content{
+  width: 900px;
+  margin: auto;
+  padding: 20px 30px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 10px;
+}
+.result-content h5{
+  font-weight: 500;
+  color: gray;
+}
+.result-content a{
+  text-decoration: none;
+  color: rgb(24 15 119);
+}

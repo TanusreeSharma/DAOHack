@@ -1,0 +1,27 @@
+.filterItem-container{
+  width: 65vw;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  padding: 20px 30px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  /* background-color: rgb(252, 252, 252); */
+}
+.filterItem-container p{
+  font-size: 15px;
+  color: rgb(130, 130, 130);
+}
+.filterItem-container p span{
+  color: rgb(24 15 119);
+  font-weight: 600;
+}
+.filterItem-container h6 {
+  color: rgb(124, 16, 50);
+}
+.filterItem-container h6 span{
+  color: rgb(24 15 119);
+  font-weight: 600;
+}
+.filterItem-container a{
+  text-decoration: none;
+}
