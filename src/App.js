@@ -10,8 +10,37 @@ import DAOsocialGraphSearch from "./components/DAOsocialGraphSearch/DAOsocialGra
 import UserDetails from "./components/UserDetails/UserDetails";
 import Game from "./components/Game/Game";
 import StartGame from "./components/StartGame/StartGame";
+import { create } from "ipfs-http-client";
+
+const client = create("https://ipfs.infura.io:5001/api/v0");
 
 function App() {
+  const [file, setFile] = useState(null);
+  const [urlArr, setUrlArr] = useState([]);
+
+    const retrieveFile = (e) => {
+    const data = e.target.files[0];
+    const reader = new window.FileReader();
+    reader.readAsArrayBuffer(data);
+
+    reader.onloadend = () => {
+      setFile(Buffer(reader.result));
+    };
+
+    e.preventDefault();
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    try {
+      const created = await client.add(file);
+      const url = `https://ipfs.infura.io/ipfs/${created.path}`;
+      setUrlArr((prev) => [...prev, url]);
+    } catch (error) {
+      console.log(error.message);
+    }
+  };
   return (
     <div className="App">
       <Router>
